@@ -1,0 +1,113 @@
+*{
+    font-size: 10px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 99.1vw;
+    height: 10rem;
+    font-family: "Inconsolata";
+}
+.main-title{
+    position: absolute;
+    left: 12.8rem;
+    display: inline;
+    font-size: 2.4rem;
+    color: #333;
+}
+.img{
+    position: absolute;
+    left: 12.8rem;
+    top: 20rem;
+    width: 32%;
+    height: 57%;
+}
+main{
+    width: 100vw;
+    height: 89vh;
+}
+.bad-news{
+    position: absolute;
+    left: 100rem;
+    top: 16rem;
+    display: inline-block;
+    width: 35%;
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-size: 6.4rem;
+    line-height: 9.5rem;
+    color: #333;
+}
+.paragraph{
+    position: absolute;
+    top: 44rem;
+    left: 100rem;
+    display: inline-block;
+    width: 21%;
+    font-family: "Space Mono";
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #4F4F4F;
+}
+.btn-homepage{
+    position: absolute;
+    left: 100rem;
+    top: 65.6rem;
+    height: 8%;
+    width: 13%;
+    font-family: "Space Mono";
+    font-size: 1.4rem;
+    border: none;
+    background-color: #333;
+    color: #ffffff;
+}
+
+footer{
+    position: absolute;
+    bottom: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.username{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #BDBDBD;
+}
+
+@media screen and (max-width: 320px){
+    .main-title{
+	left: 1.6rem;
+	font-size: 2.4rem;
+    }
+    .img{
+	left: 1.6rem;
+	top: 11.2rem;
+	height: 28%;
+	width: 89%;
+    }
+    .bad-news{
+	left: 1.6rem;
+	top: 35.4rem;
+	width: 90%;
+	font-size: 3.8rem;
+	line-height: 5.6rem;
+    }
+    .paragraph{
+	left: 1.6rem;
+	top: 49.6rem;
+	width: 80%;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+    }
+    .btn-homepage{
+	left: 1.6rem;
+	width: 65%;
+    }
+    .username{
+	font-size: 1.1rem;
+    }
+}
